@@ -1,0 +1,58 @@
+body{
+  max-width: 600px;
+}
+
+#page-banner{
+  background: #eee;
+  padding: 10px 0;
+}
+
+#page-banner h1, #page-banner p{
+  width: 100%;
+  text-align: center;
+
+}
+
+#page-banner input{
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #44444;
+}
+
+#book-list, #add-book, #tabbed-content{
+  margin: 30px;
+
+}
+
+#book-list ul, #tabbed-content ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li{
+  list-style: 20px;
+  border-left: 5px solid #ddd;
+  margin: 20px 10px;
+
+}
+
+.delete{
+  max-width: 80px;
+  background: #9361bf;
+  padding: 6px;
+  border-radius: 4px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap:
+  flex-wrap: wrap;
+  -webkit-align-content:
+  align-items: flex-end;
+
+
+}
